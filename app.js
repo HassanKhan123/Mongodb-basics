@@ -8,6 +8,6 @@ app.use(express.json());
 
 app.post('/products',createProduct);
 
-app.get('/products');
+app.get('/products',getProducts);
 
 app.listen(3000);
